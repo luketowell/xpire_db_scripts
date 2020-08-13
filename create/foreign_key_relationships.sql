@@ -21,6 +21,6 @@ ADD CONSTRAINT FK_store_item_store_id
 FOREIGN KEY (store_id) REFERENCES store(store_id);
 
 -- Add Foreign Key for the store_item table to the store_item_action table --
-ALTER TABLE store_item
-ADD CONSTRAINT FK_store_item_action
-FOREIGN KEY (action_id) REFERENCES store_item_action(action_id);
+ALTER TABLE store_item_action
+ADD CONSTRAINT FK_action_store_item
+FOREIGN KEY (store_item_id) REFERENCES store_item(store_item_id);
