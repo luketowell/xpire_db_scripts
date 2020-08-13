@@ -27,8 +27,8 @@ CREATE TABLE item (
 
 CREATE TABLE store_item_action (
 	action_id INT IDENTITY PRIMARY KEY,
+	store_item_id INT,
 	user_id VARCHAR(20),
-    store_item_id INT,
 	status_id INT,
 	expired_count INT,
 	update_date DATETIME
@@ -37,6 +37,5 @@ CREATE TABLE store_item_action (
 CREATE TABLE store_item (
 	store_item_id INT IDENTITY PRIMARY KEY,
 	item_upc VARCHAR(20),
-	action_id INT,
 	store_id INT
 );
