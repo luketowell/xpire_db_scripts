@@ -1,0 +1,25 @@
+{
+  "name": "xpire-db-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luketowell/xpire_db_scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luketowell/xpire_db_scripts/issues"
+  },
+  "homepage": "https://github.com/luketowell/xpire_db_scripts#readme",
+  "dependencies": {
+    "mssql": "^6.2.1"
+  }
+}
